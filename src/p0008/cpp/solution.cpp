@@ -1,41 +1,38 @@
-#include <iostream>
-#include <string>
-
-using namespace std;
-
-
 class Solution {
 public:
     int myAtoi(string &s) {
 
-        int i = 0;
+        int y = 0;
 
-        // Consume whitespaces.
-        while (i < s.length() && s[i] == ' ') i++;
+        size_t i = 0;
 
-        // Consume sign.
-        int32_t sign = 1;
-        if (i >= s.length()) return 0;
-        switch (s[i]) {
-            case '-': sign = -1;
-            case '+': i++; break;
+        while (i < s.length() && isspace(s[i])) {
+            i++;
+        }
+        if (i >= s.length()) { return y; }
+
+        int sign = 1;
+        if (s[i] == '-') {
+            sign = -1;
+            i++;
+        } else if (s[i] == '+') {
+            i++;
         }
 
-        // Consume value.
-        int32_t y = 0;
         while (i < s.length() && isdigit(s[i])) {
-            if (y > INT_MAX / 10 || (y == INT_MAX / 10 && s[i] > '7')) {
-                return (sign > 0) ? INT_MAX : INT_MIN;
+            int b = sign * (s[i] - '0');
+            if (sign > 0 && (y > INT_MAX / 10 || (y == INT_MAX / 10 && b > INT_MAX % 10))) {
+                y = INT_MAX;
+                break;
             }
-            y = y * 10 + (s[i] - '0'); i++;
+            if (sign < 0 && (y < INT_MIN / 10 || (y == INT_MIN / 10 && b < INT_MIN % 10))) {
+                y = INT_MIN;
+                break;
+            }
+            y = y * 10 + b;
+            i++;
         }
 
-        return sign * y;
+        return y;
     }
 };
-
-int main() {
-    Solution sol;
-    string s("-91283472332");
-    cout << sol.myAtoi(s) << endl;
-}

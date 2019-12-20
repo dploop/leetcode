@@ -1,37 +1,35 @@
-package main
-
-import (
-	"math"
-)
-
-func myAtoi(s string) int {
+func myAtoi(s string) (y int) {
 
 	i := 0
 
 	for i < len(s) && s[i] == ' ' {
 		i++
 	}
-
-	sign := int32(1)
-	if i < len(s) {
-		switch s[i] {
-		case '-': sign = -1; i++
-		case '+': i++
-		}
+	if i >= len(s) {
+		return y
 	}
 
-	y := int32(0)
-	for i < len(s) && '0' <= s[i] && s[i] <= '9' {
-		if y > math.MaxInt32 / 10 || y == math.MaxInt32 / 10 && s[i] > '7' {
-			if sign > 0 {
-				return math.MaxInt32
-			} else {
-				return math.MinInt32
-			}
-		}
-		y = y * 10 + int32(s[i] - '0')
+	sign := 1
+	if s[i] == '-' {
+		sign = -1
+		i++
+	} else if s[i] == '+' {
 		i++
 	}
 
-	return int(sign * y)
+	for i < len(s) && '0' <= s[i] && s[i] <= '9' {
+		b := sign * int(s[i]-'0')
+		if sign > 0 && (y > math.MaxInt32/10 || (y == math.MaxInt32/10 && b > math.MaxInt32%10)) {
+			y = math.MaxInt32
+			break
+		}
+		if sign < 0 && (y < math.MinInt32/10 || (y == math.MinInt32/10 && b < math.MinInt32%10)) {
+			y = math.MinInt32
+			break
+		}
+		y = y*10 + b
+		i++
+	}
+
+	return y
 }

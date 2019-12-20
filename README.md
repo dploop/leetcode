@@ -9,7 +9,7 @@
 | 0005 | [Longest Palindromic Substring]( https://leetcode.com/problems/longest-palindromic-substring/ ) | [C++/Go/Java/Python/Rust]( src/p0005 ) |
 | 0006 | [ZigZag Conversion]( https://leetcode.com/problems/zigzag-conversion/ ) | [C++/Go/Java/Python/Rust]( src/p0006 ) |
 | 0007 | [Reverse Integer]( https://leetcode.com/problems/reverse-integer/ ) | [C++/Go/Java/Python/Rust]( src/p0007 ) |
-| 0008 | [String to Integer (atoi)]( https://leetcode.com/problems/string-to-integer-atoi/ ) | [C++/Go/Java/Python]( src/p0008 ) |
+| 0008 | [String to Integer (atoi)]( https://leetcode.com/problems/string-to-integer-atoi/ ) | [C++/Go/Java/Python/Rust]( src/p0008 ) |
 | 0009 | [Palindrome Number]( https://leetcode.com/problems/palindrome-number/ ) | [C++/Go/Java/Python]( src/p0009 ) |
 | 0010 | [Regular Expression Matching]( https://leetcode.com/problems/regular-expression-matching/ ) | [C++/Go/Java/Python]( src/p0010 ) |
 | 0011 | [Container With Most Water]( https://leetcode.com/problems/container-with-most-water/ ) | [C++/Go/Java/Python]( src/p0011 ) |
