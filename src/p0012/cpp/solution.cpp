@@ -1,19 +1,13 @@
-#include <iostream>
-#include <string>
-
-using namespace std;
-
 class Solution {
 public:
-    string intToRoman(int i) {
-        return sd[i/1000] + sc[i%1000/100] + sx[i%100/10] + si[i%10];
-    }
+    static const char *const sd[], *const sc[], *const sx[], *const si[];
 
-public:
-    static const string sd[], sc[], sx[], si[];
+    string intToRoman(int i) {
+        return string(sd[i / 1000]) + string(sc[i % 1000 / 100]) + string(sx[i % 100 / 10]) + string(si[i % 10]);
+    }
 };
 
-const string Solution::sd[] = {"","M","MM","MMM"};
-const string Solution::sc[] = {"","C","CC","CCC","CD","D","DC","DCC","DCCC","CM"};
-const string Solution::sx[] = {"","X","XX","XXX","XL","L","LX","LXX","LXXX","XC"};
-const string Solution::si[] = {"","I","II","III","IV","V","VI","VII","VIII","IX"};
+const char *const Solution::sd[] = {"", "M", "MM", "MMM"};
+const char *const Solution::sc[] = {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
+const char *const Solution::sx[] = {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
+const char *const Solution::si[] = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
