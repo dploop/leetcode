@@ -1,13 +1,14 @@
-package main
-
-func reverse(z int) int {
-	x, y := int32(z), int32(0)
+func reverse(x int) (y int) {
 	for ; x != 0; x /= 10 {
-		n := y * 10 + x % 10
-		if (n - x % 10) / 10 != y {
-			y = 0; break
+		if x > 0 && (y > math.MaxInt32/10 || (y == math.MaxInt32/10 && x%10 > math.MaxInt32%10)) {
+			y = 0
+			break
 		}
-		y = n
+		if x < 0 && (y < math.MinInt32/10 || (y == math.MinInt32/10 && x%10 < math.MinInt32%10)) {
+			y = 0
+			break
+		}
+		y = y*10 + x%10
 	}
-	return int(y)
+	return y
 }
