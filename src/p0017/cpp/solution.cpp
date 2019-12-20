@@ -1,27 +1,27 @@
 class Solution {
 public:
-    vector<string> letterCombinations(string digits) {
-        vector<string> ret, alpha;
-        if (digits.length() == 0) return ret;
-        string n2s[10] = {" ","","abc","def","ghi","jkl"
-                            ,"mno","pqrs","tuv","wxyz"};
-        for (auto x : digits) {
-            alpha.push_back(n2s[x-'0']);
+    static const char *const n2s[];
+
+    vector<string> letterCombinations(const string &digits) {
+        vector<string> result;
+        if (!digits.empty()) {
+            string s;
+            dfs(digits, 0, s, result);
         }
-        cartesianProduct(ret, "", alpha);
-        return ret;
+        return result;
     }
-private:
-    void cartesianProduct(vector<string> &ret, string foo
-                                , vector<string> &alpha) {
-        int len=foo.length(), size=alpha.size();
-        if (len >= size) {
-            ret.push_back(foo); return;
+
+    static void dfs(const string &digits, size_t i, string &s, vector<string> &result) {
+        if (i == digits.size()) {
+            result.push_back(s);
+            return;
         }
-        string sigma = alpha[len];
-        for (auto x : sigma) {
-            string bar=foo; bar.push_back(x);
-            cartesianProduct(ret, bar, alpha);
+        for (auto p = n2s[digits[i] - '0']; *p != '\0'; p++) {
+            s.push_back(*p);
+            dfs(digits, i + 1, s, result);
+            s.pop_back();
         }
     }
 };
+
+const char *const Solution::n2s[] = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};

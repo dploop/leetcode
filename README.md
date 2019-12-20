@@ -18,7 +18,7 @@
 | 0014 | [Longest Common Prefix]( https://leetcode.com/problems/longest-common-prefix/ ) | [C++/Go/Java/Python/Rust]( src/p0014 ) |
 | 0015 | [3Sum]( https://leetcode.com/problems/3sum/ ) | [C++/Go/Java/Python/Rust]( src/p0015 ) |
 | 0016 | [3Sum Closest]( https://leetcode.com/problems/3sum-closest/ ) | [C++/Go/Java/Python/Rust]( src/p0016 ) |
-| 0017 | [Letter Combinations of a Phone Number]( https://leetcode.com/problems/letter-combinations-of-a-phone-number/ ) | [C++]( src/p0017 ) |
+| 0017 | [Letter Combinations of a Phone Number]( https://leetcode.com/problems/letter-combinations-of-a-phone-number/ ) | [C++/Go/Java/Python/Rust]( src/p0017 ) |
 | 0018 | [4Sum]( https://leetcode.com/problems/4sum/ ) | [C++]( src/p0018 ) |
 | 0019 | [Remove Nth Node From End of List]( https://leetcode.com/problems/remove-nth-node-from-end-of-list/ ) | [C++]( src/p0019 ) |
 | 0020 | [Valid Parentheses]( https://leetcode.com/problems/valid-parentheses/ ) | [C++]( src/p0020 ) |
