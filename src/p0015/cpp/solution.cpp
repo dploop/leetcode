@@ -1,29 +1,25 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-using namespace std;
-
-
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int> &nums) {
         vector<vector<int>> result;
-        int i, j, k, x, y, z, n = int(nums.size());
         sort(nums.begin(), nums.end());
-        for (i = 0; i < n && (x = nums[i]) <= 0; i++) {
-            if (i && nums[i - 1] == x) continue;
-            for (j = i + 1, k = n - 1; j < k;) {
-                y = nums[j];
-                if (j > i + 1 && nums[j - 1] == y) { ++j; continue; }
-                z = nums[k];
-                if (k < n - 1 && nums[k + 1] == z) { --k; continue; }
-                if (x + y + z < 0) { ++j; continue; }
-                if (x + y + z > 0) { --k; continue; }
-                result.push_back({x, y, z}); j++; k--;
+        for (size_t i = 0; i < nums.size();) {
+            for (size_t j = i + 1, k = nums.size() - 1; j < k;) {
+                if (nums[j] + nums[k] + nums[i] < 0) {
+                    j++;
+                } else if (nums[j] + nums[k] + nums[i] > 0) {
+                    k--;
+                } else {
+                    result.push_back({nums[i], nums[j], nums[k]});
+                    j++;
+                    k--;
+                    while (j < k && nums[j - 1] == nums[j]) { j++; }
+                    while (j < k && nums[k] == nums[k + 1]) { k--; }
+                }
             }
+            i++;
+            while (i < nums.size() && nums[i - 1] == nums[i]) { i++; }
         }
         return result;
     }
 };
-
