@@ -1,10 +1,9 @@
 class Solution {
-public:
-    int threeSumClosest(vector<int> &nums, int target) {
-        int minSum = 0, minDelta = INT_MAX;
-        sort(nums.begin(), nums.end());
-        for (size_t i = 0; i < nums.size(); i++) {
-            for (size_t j = i + 1, k = nums.size() - 1; j < k;) {
+    public int threeSumClosest(int[] nums, int target) {
+        int minSum = 0, minDelta = Integer.MAX_VALUE;
+        Arrays.sort(nums);
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1, k = nums.length - 1; j < k; ) {
                 int sum = nums[i] + nums[j] + nums[k];
                 if (sum < target) {
                     j++;
@@ -13,7 +12,7 @@ public:
                 } else {
                     return sum;
                 }
-                int delta = abs(sum - target);
+                int delta = Math.abs(sum - target);
                 if (minDelta > delta) {
                     minSum = sum;
                     minDelta = delta;
@@ -22,4 +21,4 @@ public:
         }
         return minSum;
     }
-};
+}
