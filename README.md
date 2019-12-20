@@ -15,7 +15,7 @@
 | 0011 | [Container With Most Water]( https://leetcode.com/problems/container-with-most-water/ ) | [C++/Go/Java/Python/Rust]( src/p0011 ) |
 | 0012 | [Integer to Roman]( https://leetcode.com/problems/integer-to-roman/ ) | [C++/Go/Java/Python/Rust]( src/p0012 ) |
 | 0013 | [Roman to Integer]( https://leetcode.com/problems/roman-to-integer/ ) | [C++/Go/Java/Python/Rust]( src/p0013 ) |
-| 0014 | [Longest Common Prefix]( https://leetcode.com/problems/longest-common-prefix/ ) | [C++/Go/Java/Python]( src/p0014 ) |
+| 0014 | [Longest Common Prefix]( https://leetcode.com/problems/longest-common-prefix/ ) | [C++/Go/Java/Python/Rust]( src/p0014 ) |
 | 0015 | [3Sum]( https://leetcode.com/problems/3sum/ ) | [C++/Go/Java/Python]( src/p0015 ) |
 | 0016 | [3Sum Closest]( https://leetcode.com/problems/3sum-closest/ ) | [C++/Java]( src/p0016 ) |
 | 0017 | [Letter Combinations of a Phone Number]( https://leetcode.com/problems/letter-combinations-of-a-phone-number/ ) | [C++]( src/p0017 ) |
