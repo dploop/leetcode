@@ -1,16 +1,14 @@
-package main
-
-func maxArea(h []int) int {
-	result, i, j := 0, 0, len(h) - 1
-	for i < j {
-		if h[i] < h[j] {
-			if result < (j - i) * h[i] {
-				result = (j - i) * h[i]
+func maxArea(hs []int) int {
+	result, i, j := 0, 0, len(hs)
+	for i+1 < j {
+		if hs[i] < hs[j-1] {
+			if result < (j-1-i)*hs[i] {
+				result = (j - 1 - i) * hs[i]
 			}
 			i++
 		} else {
-			if result < (j - i) * h[j] {
-				result = (j - i) * h[j]
+			if result < (j-1-i)*hs[j-1] {
+				result = (j - 1 - i) * hs[j-1]
 			}
 			j--
 		}
