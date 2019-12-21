@@ -3,22 +3,25 @@ public:
     vector<vector<int>> threeSum(vector<int> &nums) {
         vector<vector<int>> result;
         sort(nums.begin(), nums.end());
-        for (size_t i = 0; i < nums.size();) {
-            for (size_t j = i + 1, k = nums.size() - 1; j < k;) {
-                if (nums[j] + nums[k] + nums[i] < 0) {
-                    j++;
-                } else if (nums[j] + nums[k] + nums[i] > 0) {
-                    k--;
+        size_t n = nums.size();
+        for (size_t i = 0; i + 2 < n; i++) {
+            if (i > 0 && nums[i - 1] == nums[i]) continue;
+            if (nums[i] + nums[i + 1] + nums[i + 2] > 0) break;
+            if (nums[i] + nums[n - 2] + nums[n - 1] < 0) continue;
+            for (size_t p = i + 1, q = n - 1; p < q;) {
+                int sum3 = nums[i] + nums[p] + nums[q];
+                if (sum3 < 0) {
+                    p++;
+                } else if (sum3 > 0) {
+                    q--;
                 } else {
-                    result.push_back({nums[i], nums[j], nums[k]});
-                    j++;
-                    k--;
-                    while (j < k && nums[j - 1] == nums[j]) { j++; }
-                    while (j < k && nums[k] == nums[k + 1]) { k--; }
+                    result.push_back({nums[i], nums[p], nums[q]});
+                    p++;
+                    q--;
+                    while (p < q && nums[p - 1] == nums[p]) p++;
+                    while (p < q && nums[q] == nums[q + 1]) q--;
                 }
             }
-            i++;
-            while (i < nums.size() && nums[i - 1] == nums[i]) { i++; }
         }
         return result;
     }

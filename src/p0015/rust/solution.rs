@@ -1,26 +1,29 @@
 impl Solution {
     pub fn three_sum(nums: Vec<i32>) -> Vec<Vec<i32>> {
         let mut nums = nums;
+        let (n, mut result) = (nums.len(), Vec::new());
         nums.sort();
-        let mut result = Vec::new();
         let mut i = 0;
-        while i < nums.len() {
-            let (mut j, mut k) = (i + 1, nums.len() - 1);
-            while j < k {
-                if nums[i] + nums[j] + nums[k] < 0 {
-                    j += 1;
-                } else if nums[i] + nums[j] + nums[k] > 0 {
-                    k -= 1;
+        while i + 2 < n {
+            if i > 0 && nums[i - 1] == nums[i] { i += 1; continue; }
+            if nums[i] + nums[i + 1] + nums[i + 2] > 0 { break; }
+            if nums[i] + nums[n - 2] + nums[n - 1] < 0 { i += 1; continue; }
+            let (mut p, mut q) = (i + 1, n - 1);
+            while p < q {
+                let sum3 = nums[i] + nums[p] + nums[q];
+                if sum3 < 0 {
+                    p += 1;
+                } else if sum3 > 0 {
+                    q -= 1;
                 } else {
-                    result.push(vec![nums[i], nums[j], nums[k]]);
-                    j += 1;
-                    k -= 1;
-                    while j < k && nums[j - 1] == nums[j] { j += 1; }
-                    while j < k && nums[k] == nums[k + 1] { k -= 1; }
+                    result.push(vec![nums[i], nums[p], nums[q]]);
+                    p += 1;
+                    q -= 1;
+                    while p < q && nums[p - 1] == nums[p] { p += 1; }
+                    while p < q && nums[q] == nums[q + 1] { q -= 1; }
                 }
             }
-            i += 1;
-            while i < nums.len() && nums[i - 1] == nums[i] { i += 1; }
+            i += 1
         }
         return result;
     }
