@@ -385,3 +385,4 @@
 | 1013 | [Pairs of Songs With Total Durations Divisible by 60]( https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/ ) | [C++/Go/Java/Python]( src/p1013 ) |
 | 1015 | [Numbers With 1 Repeated Digit]( https://leetcode.com/problems/numbers-with-1-repeated-digit/ ) | [C++]( src/p1015 ) |
 | 1227 | [Airplane Seat Assignment Probability]( https://leetcode.com/problems/airplane-seat-assignment-probability/ ) | [C++/Go/Java]( src/p1227 ) |
+| 1290 | [Convert Binary Number in a Linked List to Integer]( https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/ ) | [C++/Go/Java/Python/Rust]( src/p1290 ) |
