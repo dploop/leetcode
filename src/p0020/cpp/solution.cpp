@@ -1,19 +1,12 @@
 class Solution {
-private:
-    bool isMatch(char p, char q) {
-        return (p=='(' && q==')')
-            || (p=='{' && q=='}')
-            || (p=='[' && q==']');
-    }
 public:
-    bool isValid(string s) {
+    bool isValid(const string &s) {
         stack<char> stk;
         for (auto x : s) {
             if (stk.empty()) {
                 stk.push(x);
             } else {
-                auto y = stk.top();
-                if (isMatch(y, x)) {
+                if (isMatch(stk.top(), x)) {
                     stk.pop();
                 } else {
                     stk.push(x);
@@ -21,5 +14,11 @@ public:
             }
         }
         return stk.empty();
+    }
+
+    bool isMatch(char p, char q) {
+        return (p == '(' && q == ')') ||
+               (p == '{' && q == '}') ||
+               (p == '[' && q == ']');
     }
 };

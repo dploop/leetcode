@@ -21,7 +21,7 @@
 | 0017 | [Letter Combinations of a Phone Number]( https://leetcode.com/problems/letter-combinations-of-a-phone-number/ ) | [C++/Go/Java/Python/Rust]( src/p0017 ) |
 | 0018 | [4Sum]( https://leetcode.com/problems/4sum/ ) | [C++/Go/Java/Python/Rust]( src/p0018 ) |
 | 0019 | [Remove Nth Node From End of List]( https://leetcode.com/problems/remove-nth-node-from-end-of-list/ ) | [C++/Go/Java/Python/Rust]( src/p0019 ) |
-| 0020 | [Valid Parentheses]( https://leetcode.com/problems/valid-parentheses/ ) | [C++]( src/p0020 ) |
+| 0020 | [Valid Parentheses]( https://leetcode.com/problems/valid-parentheses/ ) | [C++/Go/Java/Python/Rust]( src/p0020 ) |
 | 0021 | [Merge Two Sorted Lists]( https://leetcode.com/problems/merge-two-sorted-lists/ ) | [C++]( src/p0021 ) |
 | 0022 | [Generate Parentheses]( https://leetcode.com/problems/generate-parentheses/ ) | [C++]( src/p0022 ) |
 | 0023 | [Merge k Sorted Lists]( https://leetcode.com/problems/merge-k-sorted-lists/ ) | [C++]( src/p0023 ) |
