@@ -1,7 +1,6 @@
 class Solution:
     def getDecimalValue(self, head: ListNode) -> int:
-        result = 0
-        while head:
-            result = result * 2 + head.val
-            head = head.next
+        result, p = 0, head
+        while p:
+            result, p = result * 2 + p.val, p.next
         return result

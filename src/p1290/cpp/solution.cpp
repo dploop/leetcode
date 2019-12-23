@@ -2,9 +2,8 @@ class Solution {
 public:
     int getDecimalValue(ListNode *head) {
         int result = 0;
-        while (head) {
-            result = result * 2 + head->val;
-            head = head->next;
+        for (auto p = head; p; p = p->next) {
+            result = result * 2 + p->val;
         }
         return result;
     }

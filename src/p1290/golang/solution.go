@@ -1,8 +1,7 @@
 func getDecimalValue(head *ListNode) int {
 	result := 0
-	for head != nil {
-		result = result*2 + head.Val
-		head = head.Next
+	for p := head; p != nil; p = p.Next {
+		result = result*2 + p.Val
 	}
 	return result
 }
