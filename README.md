@@ -318,7 +318,7 @@
 | 0855 | [Exam Room]( https://leetcode.com/problems/exam-room/ ) | [C++]( src/p0855 ) |
 | 0862 | [Shortest Subarray with Sum at Least K]( https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/ ) | [C++]( src/p0862 ) |
 | 0867 | [Transpose Matrix]( https://leetcode.com/problems/transpose-matrix/ ) | [C++]( src/p0867 ) |
-| 0876 | [Middle of the Linked List]( https://leetcode.com/problems/middle-of-the-linked-list/ ) | [C++]( src/p0876 ) |
+| 0876 | [Middle of the Linked List]( https://leetcode.com/problems/middle-of-the-linked-list/ ) | [C++/Go/Java/Python/Rust]( src/p0876 ) |
 | 0881 | [Boats to Save People]( https://leetcode.com/problems/boats-to-save-people/ ) | [C++]( src/p0881 ) |
 | 0884 | [Uncommon Words from Two Sentences]( https://leetcode.com/problems/uncommon-words-from-two-sentences/ ) | [Python]( src/p0884 ) |
 | 0888 | [Fair Candy Swap]( https://leetcode.com/problems/fair-candy-swap/ ) | [C++]( src/p0888 ) |
