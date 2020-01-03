@@ -301,7 +301,7 @@
 | 0756 | [Pyramid Transition Matrix]( https://leetcode.com/problems/pyramid-transition-matrix/ ) | [C++]( src/p0756 ) |
 | 0762 | [Prime Number of Set Bits in Binary Representation]( https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/ ) | [C++/Java]( src/p0762 ) |
 | 0766 | [Toeplitz Matrix]( https://leetcode.com/problems/toeplitz-matrix/ ) | [C++]( src/p0766 ) |
-| 0771 | [Jewels and Stones]( https://leetcode.com/problems/jewels-and-stones/ ) | [Go]( src/p0771 ) |
+| ~~0771~~ | ~~[Jewels and Stones]( https://leetcode.com/problems/jewels-and-stones/ )~~ | ~~[C++/Go/Java/Python]( src/p0771 )~~ |
 | 0783 | [Minimum Distance Between BST Nodes]( https://leetcode.com/problems/minimum-distance-between-bst-nodes/ ) | [C++]( src/p0783 ) |
 | 0784 | [Letter Case Permutation]( https://leetcode.com/problems/letter-case-permutation/ ) | [C++/Java]( src/p0784 ) |
 | 0786 | [K-th Smallest Prime Fraction]( https://leetcode.com/problems/k-th-smallest-prime-fraction/ ) | [C++]( src/p0786 ) |

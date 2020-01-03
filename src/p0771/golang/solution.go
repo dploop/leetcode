@@ -1,16 +1,10 @@
-package main
-
-func numJewelsInStones(J string, S string) int {
-    num := int(0)
-    set := make(map[int32]struct{})
-    for _, c := range J {
-        set[c] = struct{}{}
-    }
-    for _, c := range S {
-        if _, ok := set[c]; ok {
-            num++
-        }
-    }
-    return num
+func numJewelsInStones(J string, S string) (result int) {
+	dict := make(map[int32]int)
+	for _, k := range J {
+		dict[k] = 1
+	}
+	for _, k := range S {
+		result += dict[k]
+	}
+	return result
 }
-
