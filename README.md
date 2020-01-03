@@ -385,7 +385,8 @@
 | 1013 | [Pairs of Songs With Total Durations Divisible by 60]( https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/ ) | [C++/Go/Java/Python]( src/p1013 ) |
 | 1015 | [Numbers With 1 Repeated Digit]( https://leetcode.com/problems/numbers-with-1-repeated-digit/ ) | [C++]( src/p1015 ) |
 | 1019 | [Next Greater Node In Linked List]( https://leetcode.com/problems/next-greater-node-in-linked-list/ ) | [C++/Go/Java/Python/Rust]( src/p1019 ) |
-| 1108 | [Defanging an IP Address]( https://leetcode.com/problems/defanging-an-ip-address/ ) | [C++/Go/Java/Python]( src/p1108 ) |
+| ~~1108~~ | ~~[Defanging an IP Address]( https://leetcode.com/problems/defanging-an-ip-address/ )~~ | ~~[C++/Go/Java/Python]( src/p1108 )~~ |
 | 1171 | [Remove Zero Sum Consecutive Nodes from Linked List]( https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/ ) | [C++/Go/Java/Python]( src/p1171 ) |
 | 1227 | [Airplane Seat Assignment Probability]( https://leetcode.com/problems/airplane-seat-assignment-probability/ ) | [C++/Go/Java]( src/p1227 ) |
 | 1290 | [Convert Binary Number in a Linked List to Integer]( https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/ ) | [C++/Go/Java/Python/Rust]( src/p1290 ) |
+| ~~1295~~ | ~~[Find Numbers with Even Number of Digits]( https://leetcode.com/problems/find-numbers-with-even-number-of-digits/ )~~ | ~~[C++/Go/Java/Python]( src/p1295 )~~ |

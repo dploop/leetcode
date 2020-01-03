@@ -30,10 +30,15 @@ def get_row(problem):
     index = '%04d' % int(attr.get('id', '0'))
     title = '[%s]( %s )' % (attr.get('title', ''), attr.get('url', ''))
     solution = '[%s]( src/%s )' % (langs(problem), quote(basename))
-    return (index, title, solution)
+    removed = attr.get('removed', False)
+    return (index, title, solution, removed)
 
 def fmt_row(row):
-    return '| %s | %s | %s |' % row
+    (index, title, solution, removed) = row
+    template = '| %s | %s | %s |'
+    if removed:
+        template = '| ~~%s~~ | ~~%s~~ | ~~%s~~ |'
+    return template % (index, title, solution)
 
 if __name__ == '__main__':
     (__file__

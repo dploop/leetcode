@@ -1,4 +1,5 @@
 {
+    "removed": true,
     "id": 1108,
     "title": "Defanging an IP Address",
     "url": "https://leetcode.com/problems/defanging-an-ip-address/"
