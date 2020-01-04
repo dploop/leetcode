@@ -1,7 +1,5 @@
-package main
-
 func toLowerCase(str string) string {
-	chars := []byte(nil)
+	var chars []byte
 	for _, char := range []byte(str) {
 		if char >= 'A' && char <= 'Z' {
 			char = char + 'a' - 'A'

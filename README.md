@@ -289,7 +289,7 @@
 | 0693 | [Binary Number with Alternating Bits]( https://leetcode.com/problems/binary-number-with-alternating-bits/ ) | [C++/Java]( src/p0693 ) |
 | 0697 | [Degree of an Array]( https://leetcode.com/problems/degree-of-an-array/ ) | [C++]( src/p0697 ) |
 | 0707 | [Design Linked List]( https://leetcode.com/problems/design-linked-list/ ) | [C++]( src/p0707 ) |
-| 0709 | [To Lower Case]( https://leetcode.com/problems/to-lower-case/ ) | [Go]( src/p0709 ) |
+| ~~0709~~ | ~~[To Lower Case]( https://leetcode.com/problems/to-lower-case/ )~~ | ~~[Go]( src/p0709 )~~ |
 | 0710 | [Random Pick with Blacklist]( https://leetcode.com/problems/random-pick-with-blacklist/ ) | [C++/Java]( src/p0710 ) |
 | 0717 | [1-bit and 2-bit Characters]( https://leetcode.com/problems/1-bit-and-2-bit-characters/ ) | [C++]( src/p0717 ) |
 | 0720 | [Longest Word in Dictionary]( https://leetcode.com/problems/longest-word-in-dictionary/ ) | [C++]( src/p0720 ) |
