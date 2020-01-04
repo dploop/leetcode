@@ -390,6 +390,7 @@
 | 1171 | [Remove Zero Sum Consecutive Nodes from Linked List]( https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/ ) | [C++/Go/Java/Python]( src/p1171 ) |
 | ~~1221~~ | ~~[Split a String in Balanced Strings]( https://leetcode.com/problems/split-a-string-in-balanced-strings/ )~~ | ~~[C++/Go/Java/Python]( src/p1221 )~~ |
 | 1227 | [Airplane Seat Assignment Probability]( https://leetcode.com/problems/airplane-seat-assignment-probability/ ) | [C++/Go/Java]( src/p1227 ) |
+| ~~1266~~ | ~~[Minimum Time Visiting All Points]( https://leetcode.com/problems/minimum-time-visiting-all-points/ )~~ | ~~[C++/Go/Java/Python]( src/p1266 )~~ |
 | ~~1281~~ | ~~[Subtract the Product and Sum of Digits of an Integer]( https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ )~~ | ~~[C++/Go/Java/Python]( src/p1281 )~~ |
 | ~~1290~~ | ~~[Convert Binary Number in a Linked List to Integer]( https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/ )~~ | ~~[C++/Go/Java/Python/Rust]( src/p1290 )~~ |
 | ~~1295~~ | ~~[Find Numbers with Even Number of Digits]( https://leetcode.com/problems/find-numbers-with-even-number-of-digits/ )~~ | ~~[C++/Go/Java/Python]( src/p1295 )~~ |
