@@ -394,3 +394,4 @@
 | ~~1281~~ | ~~[Subtract the Product and Sum of Digits of an Integer]( https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ )~~ | ~~[C++/Go/Java/Python]( src/p1281 )~~ |
 | ~~1290~~ | ~~[Convert Binary Number in a Linked List to Integer]( https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/ )~~ | ~~[C++/Go/Java/Python/Rust]( src/p1290 )~~ |
 | ~~1295~~ | ~~[Find Numbers with Even Number of Digits]( https://leetcode.com/problems/find-numbers-with-even-number-of-digits/ )~~ | ~~[C++/Go/Java/Python]( src/p1295 )~~ |
+| ~~1304~~ | ~~[Find N Unique Integers Sum up to Zero]( https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/ )~~ | ~~[C++/Go/Java/Python]( src/p1304 )~~ |
