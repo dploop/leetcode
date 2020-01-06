@@ -394,6 +394,7 @@
 | ~~1281~~ | ~~[Subtract the Product and Sum of Digits of an Integer]( https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ )~~ | ~~[C++/Go/Java/Python]( src/p1281 )~~ |
 | ~~1290~~ | ~~[Convert Binary Number in a Linked List to Integer]( https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/ )~~ | ~~[C++/Go/Java/Python/Rust]( src/p1290 )~~ |
 | ~~1295~~ | ~~[Find Numbers with Even Number of Digits]( https://leetcode.com/problems/find-numbers-with-even-number-of-digits/ )~~ | ~~[C++/Go/Java/Python]( src/p1295 )~~ |
+| ~~1300~~ | ~~[Sum of Mutated Array Closest to Target]( https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/ )~~ | ~~[C++]( src/p1300 )~~ |
 | ~~1301~~ | ~~[Number of Paths with Max Score]( https://leetcode.com/problems/number-of-paths-with-max-score/ )~~ | ~~[C++]( src/p1301 )~~ |
 | ~~1302~~ | ~~[Deepest Leaves Sum]( https://leetcode.com/problems/deepest-leaves-sum/ )~~ | ~~[C++]( src/p1302 )~~ |
 | ~~1304~~ | ~~[Find N Unique Integers Sum up to Zero]( https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/ )~~ | ~~[C++/Go/Java/Python]( src/p1304 )~~ |
