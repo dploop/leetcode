@@ -394,6 +394,7 @@
 | ~~1281~~ | ~~[Subtract the Product and Sum of Digits of an Integer]( https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ )~~ | ~~[C++/Go/Java/Python]( src/p1281 )~~ |
 | ~~1290~~ | ~~[Convert Binary Number in a Linked List to Integer]( https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/ )~~ | ~~[C++/Go/Java/Python/Rust]( src/p1290 )~~ |
 | ~~1295~~ | ~~[Find Numbers with Even Number of Digits]( https://leetcode.com/problems/find-numbers-with-even-number-of-digits/ )~~ | ~~[C++/Go/Java/Python]( src/p1295 )~~ |
+| ~~1298~~ | ~~[Maximum Candies You Can Get from Boxes]( https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/ )~~ | ~~[C++]( src/p1298 )~~ |
 | ~~1299~~ | ~~[Replace Elements with Greatest Element on Right Side]( https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/ )~~ | ~~[C++]( src/p1299 )~~ |
 | ~~1300~~ | ~~[Sum of Mutated Array Closest to Target]( https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/ )~~ | ~~[C++]( src/p1300 )~~ |
 | ~~1301~~ | ~~[Number of Paths with Max Score]( https://leetcode.com/problems/number-of-paths-with-max-score/ )~~ | ~~[C++]( src/p1301 )~~ |
