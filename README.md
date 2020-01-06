@@ -396,5 +396,6 @@
 | ~~1295~~ | ~~[Find Numbers with Even Number of Digits]( https://leetcode.com/problems/find-numbers-with-even-number-of-digits/ )~~ | ~~[C++/Go/Java/Python]( src/p1295 )~~ |
 | ~~1304~~ | ~~[Find N Unique Integers Sum up to Zero]( https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/ )~~ | ~~[C++/Go/Java/Python]( src/p1304 )~~ |
 | ~~1307~~ | ~~[Verbal Arithmetic Puzzle]( https://leetcode.com/problems/verbal-arithmetic-puzzle/ )~~ | ~~[C++]( src/p1307 )~~ |
+| ~~1310~~ | ~~[XOR Queries of a Subarray]( https://leetcode.com/problems/xor-queries-of-a-subarray/ )~~ | ~~[C++]( src/p1310 )~~ |
 | ~~1311~~ | ~~[Get Watched Videos by Your Friends]( https://leetcode.com/problems/get-watched-videos-by-your-friends/ )~~ | ~~[C++]( src/p1311 )~~ |
 | 1312 | [Minimum Insertion Steps to Make a String Palindrome]( https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/ ) | [C++/Go/Java/Python/Rust]( src/p1312 ) |
