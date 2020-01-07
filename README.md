@@ -393,6 +393,7 @@
 | ~~1266~~ | ~~[Minimum Time Visiting All Points]( https://leetcode.com/problems/minimum-time-visiting-all-points/ )~~ | ~~[C++/Go/Java/Python]( src/p1266 )~~ |
 | ~~1281~~ | ~~[Subtract the Product and Sum of Digits of an Integer]( https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ )~~ | ~~[C++/Go/Java/Python]( src/p1281 )~~ |
 | ~~1290~~ | ~~[Convert Binary Number in a Linked List to Integer]( https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/ )~~ | ~~[C++/Go/Java/Python/Rust]( src/p1290 )~~ |
+| 1293 | [Shortest Path in a Grid with Obstacles Elimination]( https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/ ) | [C++]( src/p1293 ) |
 | ~~1295~~ | ~~[Find Numbers with Even Number of Digits]( https://leetcode.com/problems/find-numbers-with-even-number-of-digits/ )~~ | ~~[C++/Go/Java/Python]( src/p1295 )~~ |
 | ~~1296~~ | ~~[Divide Array in Sets of K Consecutive Numbers]( https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/ )~~ | ~~[C++]( src/p1296 )~~ |
 | ~~1297~~ | ~~[Maximum Number of Occurrences of a Substring]( https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/ )~~ | ~~[C++]( src/p1297 )~~ |
