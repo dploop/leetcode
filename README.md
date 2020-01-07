@@ -392,6 +392,7 @@
 | 1227 | [Airplane Seat Assignment Probability]( https://leetcode.com/problems/airplane-seat-assignment-probability/ ) | [C++/Go/Java]( src/p1227 ) |
 | ~~1266~~ | ~~[Minimum Time Visiting All Points]( https://leetcode.com/problems/minimum-time-visiting-all-points/ )~~ | ~~[C++/Go/Java/Python]( src/p1266 )~~ |
 | ~~1281~~ | ~~[Subtract the Product and Sum of Digits of an Integer]( https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ )~~ | ~~[C++/Go/Java/Python]( src/p1281 )~~ |
+| ~~1289~~ | ~~[Minimum Falling Path Sum II]( https://leetcode.com/problems/minimum-falling-path-sum-ii/ )~~ | ~~[C++]( src/p1289 )~~ |
 | ~~1290~~ | ~~[Convert Binary Number in a Linked List to Integer]( https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/ )~~ | ~~[C++/Go/Java/Python/Rust]( src/p1290 )~~ |
 | ~~1291~~ | ~~[Sequential Digits]( https://leetcode.com/problems/sequential-digits/ )~~ | ~~[C++]( src/p1291 )~~ |
 | 1292 | [Maximum Side Length of a Square with Sum Less than or Equal to Threshold]( https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/ ) | [C++]( src/p1292 ) |
