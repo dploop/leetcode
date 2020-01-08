@@ -392,6 +392,7 @@
 | 1227 | [Airplane Seat Assignment Probability]( https://leetcode.com/problems/airplane-seat-assignment-probability/ ) | [C++/Go/Java]( src/p1227 ) |
 | ~~1266~~ | ~~[Minimum Time Visiting All Points]( https://leetcode.com/problems/minimum-time-visiting-all-points/ )~~ | ~~[C++/Go/Java/Python]( src/p1266 )~~ |
 | ~~1281~~ | ~~[Subtract the Product and Sum of Digits of an Integer]( https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ )~~ | ~~[C++/Go/Java/Python]( src/p1281 )~~ |
+| ~~1282~~ | ~~[Group the People Given the Group Size They Belong To]( https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/ )~~ | ~~[C++]( src/p1282 )~~ |
 | ~~1283~~ | ~~[Find the Smallest Divisor Given a Threshold]( https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/ )~~ | ~~[C++]( src/p1283 )~~ |
 | ~~1284~~ | ~~[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix]( https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/ )~~ | ~~[C++]( src/p1284 )~~ |
 | 1286 | [Iterator for Combination]( https://leetcode.com/problems/iterator-for-combination/ ) | [C++]( src/p1286 ) |
