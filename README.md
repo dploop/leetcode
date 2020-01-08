@@ -391,6 +391,7 @@
 | ~~1221~~ | ~~[Split a String in Balanced Strings]( https://leetcode.com/problems/split-a-string-in-balanced-strings/ )~~ | ~~[C++/Go/Java/Python]( src/p1221 )~~ |
 | 1227 | [Airplane Seat Assignment Probability]( https://leetcode.com/problems/airplane-seat-assignment-probability/ ) | [C++/Go/Java]( src/p1227 ) |
 | ~~1266~~ | ~~[Minimum Time Visiting All Points]( https://leetcode.com/problems/minimum-time-visiting-all-points/ )~~ | ~~[C++/Go/Java/Python]( src/p1266 )~~ |
+| ~~1267~~ | ~~[Count Servers that Communicate]( https://leetcode.com/problems/count-servers-that-communicate/ )~~ | ~~[C++]( src/p1267 )~~ |
 | ~~1268~~ | ~~[Search Suggestions System]( https://leetcode.com/problems/search-suggestions-system/ )~~ | ~~[C++]( src/p1268 )~~ |
 | 1269 | [Number of Ways to Stay in the Same Place After Some Steps]( https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/ ) | [C++]( src/p1269 ) |
 | ~~1275~~ | ~~[Find Winner on a Tic Tac Toe Game]( https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/ )~~ | ~~[C++]( src/p1275 )~~ |
