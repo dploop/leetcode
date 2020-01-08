@@ -391,6 +391,7 @@
 | ~~1221~~ | ~~[Split a String in Balanced Strings]( https://leetcode.com/problems/split-a-string-in-balanced-strings/ )~~ | ~~[C++/Go/Java/Python]( src/p1221 )~~ |
 | 1227 | [Airplane Seat Assignment Probability]( https://leetcode.com/problems/airplane-seat-assignment-probability/ ) | [C++/Go/Java]( src/p1227 ) |
 | ~~1266~~ | ~~[Minimum Time Visiting All Points]( https://leetcode.com/problems/minimum-time-visiting-all-points/ )~~ | ~~[C++/Go/Java/Python]( src/p1266 )~~ |
+| 1278 | [Palindrome Partitioning III]( https://leetcode.com/problems/palindrome-partitioning-iii/ ) | [C++]( src/p1278 ) |
 | ~~1281~~ | ~~[Subtract the Product and Sum of Digits of an Integer]( https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ )~~ | ~~[C++/Go/Java/Python]( src/p1281 )~~ |
 | ~~1282~~ | ~~[Group the People Given the Group Size They Belong To]( https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/ )~~ | ~~[C++]( src/p1282 )~~ |
 | ~~1283~~ | ~~[Find the Smallest Divisor Given a Threshold]( https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/ )~~ | ~~[C++]( src/p1283 )~~ |
