@@ -391,6 +391,7 @@
 | ~~1221~~ | ~~[Split a String in Balanced Strings]( https://leetcode.com/problems/split-a-string-in-balanced-strings/ )~~ | ~~[C++/Go/Java/Python]( src/p1221 )~~ |
 | 1227 | [Airplane Seat Assignment Probability]( https://leetcode.com/problems/airplane-seat-assignment-probability/ ) | [C++/Go/Java]( src/p1227 ) |
 | ~~1266~~ | ~~[Minimum Time Visiting All Points]( https://leetcode.com/problems/minimum-time-visiting-all-points/ )~~ | ~~[C++/Go/Java/Python]( src/p1266 )~~ |
+| ~~1276~~ | ~~[Number of Burgers with No Waste of Ingredients]( https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/ )~~ | ~~[C++]( src/p1276 )~~ |
 | 1277 | [Count Square Submatrices with All Ones]( https://leetcode.com/problems/count-square-submatrices-with-all-ones/ ) | [C++]( src/p1277 ) |
 | 1278 | [Palindrome Partitioning III]( https://leetcode.com/problems/palindrome-partitioning-iii/ ) | [C++]( src/p1278 ) |
 | ~~1281~~ | ~~[Subtract the Product and Sum of Digits of an Integer]( https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ )~~ | ~~[C++/Go/Java/Python]( src/p1281 )~~ |
