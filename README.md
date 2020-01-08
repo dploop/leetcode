@@ -392,6 +392,7 @@
 | 1227 | [Airplane Seat Assignment Probability]( https://leetcode.com/problems/airplane-seat-assignment-probability/ ) | [C++/Go/Java]( src/p1227 ) |
 | ~~1266~~ | ~~[Minimum Time Visiting All Points]( https://leetcode.com/problems/minimum-time-visiting-all-points/ )~~ | ~~[C++/Go/Java/Python]( src/p1266 )~~ |
 | ~~1281~~ | ~~[Subtract the Product and Sum of Digits of an Integer]( https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ )~~ | ~~[C++/Go/Java/Python]( src/p1281 )~~ |
+| 1286 | [Iterator for Combination]( https://leetcode.com/problems/iterator-for-combination/ ) | [C++]( src/p1286 ) |
 | ~~1287~~ | ~~[Element Appearing More Than 25% In Sorted Array]( https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/ )~~ | ~~[C++]( src/p1287 )~~ |
 | ~~1288~~ | ~~[Remove Covered Intervals]( https://leetcode.com/problems/remove-covered-intervals/ )~~ | ~~[C++]( src/p1288 )~~ |
 | ~~1289~~ | ~~[Minimum Falling Path Sum II]( https://leetcode.com/problems/minimum-falling-path-sum-ii/ )~~ | ~~[C++]( src/p1289 )~~ |
