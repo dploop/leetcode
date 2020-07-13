@@ -1,19 +1,19 @@
 class Solution {
 public:
-    int trap(vector<int>& height) {
-        int n = height.size(); if (n<=0) return 0;
-        int acc = 0, pivot = 0, lhs = 0, rhs = n-1;
-        for (int i = 0; i < n; ++i) {
-            if (height[i]>height[pivot]) pivot = i;
+    int trap(vector<int> &height) {
+        auto l = height.begin(), r = height.end();
+        int water = 0, lbound = 0, rbound = 0;
+        while (l < r) {
+            if (lbound < rbound) {
+                int curr = *(l++);
+                lbound = max(lbound, curr);
+                water += lbound - curr;
+            } else {
+                int curr = *(--r);
+                rbound = max(rbound, curr);
+                water += rbound - curr;
+            }
         }
-        for (int i=lhs+1; i < pivot; ++i) {
-            if (height[lhs]<=height[i]) {lhs=i;}
-            else {acc += height[lhs]-height[i];}
-        }
-        for (int i=rhs-1; i > pivot; --i) {
-            if (height[i]>=height[rhs]) {rhs=i;}
-            else {acc += height[rhs]-height[i];}
-        }
-        return acc;
+        return water;
     }
 };

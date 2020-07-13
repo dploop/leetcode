@@ -5,3 +5,4 @@ CMakeLists.txt
 *.iml
 venv
 out/
+.DS_Store
