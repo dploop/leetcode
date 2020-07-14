@@ -43,7 +43,7 @@
 | 0039 | [Combination Sum]( https://leetcode.com/problems/combination-sum/ ) | [C++]( src/p0039 ) |
 | 0040 | [Combination Sum II]( https://leetcode.com/problems/combination-sum-ii/ ) | [C++]( src/p0040 ) |
 | 0041 | [First Missing Positive]( https://leetcode.com/problems/first-missing-positive/ ) | [C++]( src/p0041 ) |
-| 0042 | [Trapping Rain Water]( https://leetcode.com/problems/trapping-rain-water/ ) | [C++]( src/p0042 ) |
+| 0042 | [Trapping Rain Water]( https://leetcode.com/problems/trapping-rain-water/ ) | [C++/Go/Java]( src/p0042 ) |
 | 0044 | [Wildcard Matching]( https://leetcode.com/problems/wildcard-matching/ ) | [C++]( src/p0044 ) |
 | 0046 | [Permutations]( https://leetcode.com/problems/permutations/ ) | [C++]( src/p0046 ) |
 | 0048 | [Rotate Image]( https://leetcode.com/problems/rotate-image/ ) | [Go]( src/p0048 ) |
@@ -73,7 +73,7 @@
 | 0088 | [Merge Sorted Array]( https://leetcode.com/problems/merge-sorted-array/ ) | [C++]( src/p0088 ) |
 | 0089 | [Gray Code]( https://leetcode.com/problems/gray-code/ ) | [C++]( src/p0089 ) |
 | 0094 | [Binary Tree Inorder Traversal]( https://leetcode.com/problems/binary-tree-inorder-traversal/ ) | [C++]( src/p0094 ) |
-| 0096 | [Delete Duplicate Emails]( https://leetcode.com/problems/delete-duplicate-emails/ ) | [SQL]( src/p0096 ) |
+| 0096 | [Delete Duplicate Emails]( https://leetcode.com/problems/delete-duplicate-emails/ ) | [C++]( src/p0096 ) |
 | 0098 | [Validate Binary Search Tree]( https://leetcode.com/problems/validate-binary-search-tree/ ) | [Go]( src/p0098 ) |
 | 0100 | [Same Tree]( https://leetcode.com/problems/same-tree/ ) | [C++]( src/p0100 ) |
 | 0101 | [Symmetric Tree]( https://leetcode.com/problems/symmetric-tree/ ) | [C++]( src/p0101 ) |

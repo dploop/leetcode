@@ -56,7 +56,7 @@ if __name__ == '__main__':
         | select(get_row)
         | sort
         | select(fmt_row)
-        | concat('\n')
-        | Pipe(lambda s: ofile.write(s))
+        | Pipe('\n'.join)
+        | Pipe(ofile.write)
         | Pipe(lambda _: print('Done!'))
     )

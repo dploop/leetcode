@@ -1,19 +1,18 @@
 class Solution {
-public:
-    int trap(vector<int> &height) {
+    public int trap(int[] height) {
         int water = 0, lbound = 0, rbound = 0;
-        auto left = height.begin(), right = height.end();
+        int left = 0, right = height.length;
         while (left < right) {
             if (lbound < rbound) {
-                int curr = *(left++);
-                lbound = max(lbound, curr);
+                int curr = height[left++];
+                lbound = Math.max(lbound, curr);
                 water += lbound - curr;
             } else {
-                int curr = *(--right);
-                rbound = max(rbound, curr);
+                int curr = height[--right];
+                rbound = Math.max(rbound, curr);
                 water += rbound - curr;
             }
         }
         return water;
     }
-};
+}
