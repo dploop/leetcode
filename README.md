@@ -426,3 +426,4 @@
 | ~~1310~~ | ~~[XOR Queries of a Subarray]( https://leetcode.com/problems/xor-queries-of-a-subarray/ )~~ | ~~[C++]( src/p1310 )~~ |
 | ~~1311~~ | ~~[Get Watched Videos by Your Friends]( https://leetcode.com/problems/get-watched-videos-by-your-friends/ )~~ | ~~[C++]( src/p1311 )~~ |
 | 1312 | [Minimum Insertion Steps to Make a String Palindrome]( https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/ ) | [C++/Go/Java/Python/Rust]( src/p1312 ) |
+| 1528 | [Shuffle String]( https://leetcode.com/problems/shuffle-string/ ) | [C++]( src/p1528 ) |
