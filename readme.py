@@ -30,14 +30,14 @@ def get_row(problem):
     index = '%04d' % int(attr.get('id', '0'))
     title = '[%s]( %s )' % (attr.get('title', ''), attr.get('url', ''))
     solution = '[%s]( src/%s )' % (langs(problem), quote(basename))
-    removed = attr.get('removed', False)
-    return (index, title, solution, removed)
+    favorite = attr.get('favorite', False)
+    return (index, title, solution, favorite)
 
 def fmt_row(row):
-    (index, title, solution, removed) = row
+    (index, title, solution, favorite) = row
     template = '| %s | %s | %s |'
-    if removed:
-        template = '| ~~%s~~ | ~~%s~~ | ~~%s~~ |'
+    if favorite:
+        template = '| %s | %s \u2b50 | %s |'
     return template % (index, title, solution)
 
 if __name__ == '__main__':

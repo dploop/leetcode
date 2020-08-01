@@ -5,7 +5,7 @@
 | 0001 | [Two Sum]( https://leetcode.com/problems/two-sum/ ) | [C++/Go/Java/Python/Rust]( src/p0001 ) |
 | 0002 | [Add Two Numbers]( https://leetcode.com/problems/add-two-numbers/ ) | [C++/Go/Java/Python/Rust]( src/p0002 ) |
 | 0003 | [Longest Substring Without Repeating Characters]( https://leetcode.com/problems/longest-substring-without-repeating-characters/ ) | [C++/Go/Java/Python/Rust]( src/p0003 ) |
-| 0004 | [Median of Two Sorted Arrays]( https://leetcode.com/problems/median-of-two-sorted-arrays/ ) | [C++/Go/Java/Python/Rust]( src/p0004 ) |
+| 0004 | [Median of Two Sorted Arrays]( https://leetcode.com/problems/median-of-two-sorted-arrays/ ) ⭐ | [C++/Go/Java/Python/Rust]( src/p0004 ) |
 | 0005 | [Longest Palindromic Substring]( https://leetcode.com/problems/longest-palindromic-substring/ ) | [C++/Go/Java/Python/Rust]( src/p0005 ) |
 | 0006 | [ZigZag Conversion]( https://leetcode.com/problems/zigzag-conversion/ ) | [C++/Go/Java/Python/Rust]( src/p0006 ) |
 | 0007 | [Reverse Integer]( https://leetcode.com/problems/reverse-integer/ ) | [C++/Go/Java/Python/Rust]( src/p0007 ) |
@@ -289,7 +289,7 @@
 | 0693 | [Binary Number with Alternating Bits]( https://leetcode.com/problems/binary-number-with-alternating-bits/ ) | [C++/Java]( src/p0693 ) |
 | 0697 | [Degree of an Array]( https://leetcode.com/problems/degree-of-an-array/ ) | [C++]( src/p0697 ) |
 | 0707 | [Design Linked List]( https://leetcode.com/problems/design-linked-list/ ) | [C++]( src/p0707 ) |
-| ~~0709~~ | ~~[To Lower Case]( https://leetcode.com/problems/to-lower-case/ )~~ | ~~[Go]( src/p0709 )~~ |
+| 0709 | [To Lower Case]( https://leetcode.com/problems/to-lower-case/ ) | [Go]( src/p0709 ) |
 | 0710 | [Random Pick with Blacklist]( https://leetcode.com/problems/random-pick-with-blacklist/ ) | [C++/Java]( src/p0710 ) |
 | 0717 | [1-bit and 2-bit Characters]( https://leetcode.com/problems/1-bit-and-2-bit-characters/ ) | [C++]( src/p0717 ) |
 | 0720 | [Longest Word in Dictionary]( https://leetcode.com/problems/longest-word-in-dictionary/ ) | [C++]( src/p0720 ) |
@@ -301,7 +301,7 @@
 | 0756 | [Pyramid Transition Matrix]( https://leetcode.com/problems/pyramid-transition-matrix/ ) | [C++]( src/p0756 ) |
 | 0762 | [Prime Number of Set Bits in Binary Representation]( https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/ ) | [C++/Java]( src/p0762 ) |
 | 0766 | [Toeplitz Matrix]( https://leetcode.com/problems/toeplitz-matrix/ ) | [C++]( src/p0766 ) |
-| ~~0771~~ | ~~[Jewels and Stones]( https://leetcode.com/problems/jewels-and-stones/ )~~ | ~~[C++/Go/Java/Python]( src/p0771 )~~ |
+| 0771 | [Jewels and Stones]( https://leetcode.com/problems/jewels-and-stones/ ) | [C++/Go/Java/Python]( src/p0771 ) |
 | 0783 | [Minimum Distance Between BST Nodes]( https://leetcode.com/problems/minimum-distance-between-bst-nodes/ ) | [C++]( src/p0783 ) |
 | 0784 | [Letter Case Permutation]( https://leetcode.com/problems/letter-case-permutation/ ) | [C++/Java]( src/p0784 ) |
 | 0786 | [K-th Smallest Prime Fraction]( https://leetcode.com/problems/k-th-smallest-prime-fraction/ ) | [C++]( src/p0786 ) |
@@ -332,7 +332,7 @@
 | 0926 | [Flip String to Monotone Increasing]( https://leetcode.com/problems/flip-string-to-monotone-increasing/ ) | [C++]( src/p0926 ) |
 | 0929 | [Unique Email Addresses]( https://leetcode.com/problems/unique-email-addresses/ ) | [Go]( src/p0929 ) |
 | 0933 | [Number of Recent Calls]( https://leetcode.com/problems/number-of-recent-calls/ ) | [C++]( src/p0933 ) |
-| ~~0938~~ | ~~[Range Sum of BST]( https://leetcode.com/problems/range-sum-of-bst/ )~~ | ~~[C++/Go/Java/Python]( src/p0938 )~~ |
+| 0938 | [Range Sum of BST]( https://leetcode.com/problems/range-sum-of-bst/ ) | [C++/Go/Java/Python]( src/p0938 ) |
 | 0941 | [Valid Mountain Array]( https://leetcode.com/problems/valid-mountain-array/ ) | [C++]( src/p0941 ) |
 | 0949 | [Largest Time for Given Digits]( https://leetcode.com/problems/largest-time-for-given-digits/ ) | [C++]( src/p0949 ) |
 | 0953 | [Verifying an Alien Dictionary]( https://leetcode.com/problems/verifying-an-alien-dictionary/ ) | [C++]( src/p0953 ) |
@@ -386,44 +386,45 @@
 | 1013 | [Pairs of Songs With Total Durations Divisible by 60]( https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/ ) | [C++/Go/Java/Python]( src/p1013 ) |
 | 1015 | [Numbers With 1 Repeated Digit]( https://leetcode.com/problems/numbers-with-1-repeated-digit/ ) | [C++]( src/p1015 ) |
 | 1019 | [Next Greater Node In Linked List]( https://leetcode.com/problems/next-greater-node-in-linked-list/ ) | [C++/Go/Java/Python/Rust]( src/p1019 ) |
-| ~~1108~~ | ~~[Defanging an IP Address]( https://leetcode.com/problems/defanging-an-ip-address/ )~~ | ~~[C++/Go/Java/Python]( src/p1108 )~~ |
+| 1108 | [Defanging an IP Address]( https://leetcode.com/problems/defanging-an-ip-address/ ) | [C++/Go/Java/Python]( src/p1108 ) |
 | 1171 | [Remove Zero Sum Consecutive Nodes from Linked List]( https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/ ) | [C++/Go/Java/Python]( src/p1171 ) |
-| ~~1221~~ | ~~[Split a String in Balanced Strings]( https://leetcode.com/problems/split-a-string-in-balanced-strings/ )~~ | ~~[C++/Go/Java/Python]( src/p1221 )~~ |
+| 1221 | [Split a String in Balanced Strings]( https://leetcode.com/problems/split-a-string-in-balanced-strings/ ) | [C++/Go/Java/Python]( src/p1221 ) |
 | 1227 | [Airplane Seat Assignment Probability]( https://leetcode.com/problems/airplane-seat-assignment-probability/ ) | [C++/Go/Java]( src/p1227 ) |
-| ~~1266~~ | ~~[Minimum Time Visiting All Points]( https://leetcode.com/problems/minimum-time-visiting-all-points/ )~~ | ~~[C++/Go/Java/Python]( src/p1266 )~~ |
-| ~~1267~~ | ~~[Count Servers that Communicate]( https://leetcode.com/problems/count-servers-that-communicate/ )~~ | ~~[C++]( src/p1267 )~~ |
-| ~~1268~~ | ~~[Search Suggestions System]( https://leetcode.com/problems/search-suggestions-system/ )~~ | ~~[C++]( src/p1268 )~~ |
+| 1266 | [Minimum Time Visiting All Points]( https://leetcode.com/problems/minimum-time-visiting-all-points/ ) | [C++/Go/Java/Python]( src/p1266 ) |
+| 1267 | [Count Servers that Communicate]( https://leetcode.com/problems/count-servers-that-communicate/ ) | [C++]( src/p1267 ) |
+| 1268 | [Search Suggestions System]( https://leetcode.com/problems/search-suggestions-system/ ) | [C++]( src/p1268 ) |
 | 1269 | [Number of Ways to Stay in the Same Place After Some Steps]( https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/ ) | [C++]( src/p1269 ) |
-| ~~1275~~ | ~~[Find Winner on a Tic Tac Toe Game]( https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/ )~~ | ~~[C++]( src/p1275 )~~ |
-| ~~1276~~ | ~~[Number of Burgers with No Waste of Ingredients]( https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/ )~~ | ~~[C++]( src/p1276 )~~ |
+| 1275 | [Find Winner on a Tic Tac Toe Game]( https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/ ) | [C++]( src/p1275 ) |
+| 1276 | [Number of Burgers with No Waste of Ingredients]( https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/ ) | [C++]( src/p1276 ) |
 | 1277 | [Count Square Submatrices with All Ones]( https://leetcode.com/problems/count-square-submatrices-with-all-ones/ ) | [C++]( src/p1277 ) |
 | 1278 | [Palindrome Partitioning III]( https://leetcode.com/problems/palindrome-partitioning-iii/ ) | [C++]( src/p1278 ) |
-| ~~1281~~ | ~~[Subtract the Product and Sum of Digits of an Integer]( https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ )~~ | ~~[C++/Go/Java/Python]( src/p1281 )~~ |
-| ~~1282~~ | ~~[Group the People Given the Group Size They Belong To]( https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/ )~~ | ~~[C++]( src/p1282 )~~ |
-| ~~1283~~ | ~~[Find the Smallest Divisor Given a Threshold]( https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/ )~~ | ~~[C++]( src/p1283 )~~ |
-| ~~1284~~ | ~~[Minimum Number of Flips to Convert Binary Matrix to Zero Matrix]( https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/ )~~ | ~~[C++]( src/p1284 )~~ |
+| 1281 | [Subtract the Product and Sum of Digits of an Integer]( https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ ) | [C++/Go/Java/Python]( src/p1281 ) |
+| 1282 | [Group the People Given the Group Size They Belong To]( https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/ ) | [C++]( src/p1282 ) |
+| 1283 | [Find the Smallest Divisor Given a Threshold]( https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/ ) | [C++]( src/p1283 ) |
+| 1284 | [Minimum Number of Flips to Convert Binary Matrix to Zero Matrix]( https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/ ) | [C++]( src/p1284 ) |
 | 1286 | [Iterator for Combination]( https://leetcode.com/problems/iterator-for-combination/ ) | [C++]( src/p1286 ) |
-| ~~1287~~ | ~~[Element Appearing More Than 25% In Sorted Array]( https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/ )~~ | ~~[C++]( src/p1287 )~~ |
-| ~~1288~~ | ~~[Remove Covered Intervals]( https://leetcode.com/problems/remove-covered-intervals/ )~~ | ~~[C++]( src/p1288 )~~ |
-| ~~1289~~ | ~~[Minimum Falling Path Sum II]( https://leetcode.com/problems/minimum-falling-path-sum-ii/ )~~ | ~~[C++]( src/p1289 )~~ |
-| ~~1290~~ | ~~[Convert Binary Number in a Linked List to Integer]( https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/ )~~ | ~~[C++/Go/Java/Python/Rust]( src/p1290 )~~ |
-| ~~1291~~ | ~~[Sequential Digits]( https://leetcode.com/problems/sequential-digits/ )~~ | ~~[C++]( src/p1291 )~~ |
+| 1287 | [Element Appearing More Than 25% In Sorted Array]( https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/ ) | [C++]( src/p1287 ) |
+| 1288 | [Remove Covered Intervals]( https://leetcode.com/problems/remove-covered-intervals/ ) | [C++]( src/p1288 ) |
+| 1289 | [Minimum Falling Path Sum II]( https://leetcode.com/problems/minimum-falling-path-sum-ii/ ) | [C++]( src/p1289 ) |
+| 1290 | [Convert Binary Number in a Linked List to Integer]( https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/ ) | [C++/Go/Java/Python/Rust]( src/p1290 ) |
+| 1291 | [Sequential Digits]( https://leetcode.com/problems/sequential-digits/ ) | [C++]( src/p1291 ) |
 | 1292 | [Maximum Side Length of a Square with Sum Less than or Equal to Threshold]( https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/ ) | [C++]( src/p1292 ) |
 | 1293 | [Shortest Path in a Grid with Obstacles Elimination]( https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/ ) | [C++]( src/p1293 ) |
-| ~~1295~~ | ~~[Find Numbers with Even Number of Digits]( https://leetcode.com/problems/find-numbers-with-even-number-of-digits/ )~~ | ~~[C++/Go/Java/Python]( src/p1295 )~~ |
-| ~~1296~~ | ~~[Divide Array in Sets of K Consecutive Numbers]( https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/ )~~ | ~~[C++]( src/p1296 )~~ |
-| ~~1297~~ | ~~[Maximum Number of Occurrences of a Substring]( https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/ )~~ | ~~[C++]( src/p1297 )~~ |
-| ~~1298~~ | ~~[Maximum Candies You Can Get from Boxes]( https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/ )~~ | ~~[C++]( src/p1298 )~~ |
-| ~~1299~~ | ~~[Replace Elements with Greatest Element on Right Side]( https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/ )~~ | ~~[C++]( src/p1299 )~~ |
-| ~~1300~~ | ~~[Sum of Mutated Array Closest to Target]( https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/ )~~ | ~~[C++]( src/p1300 )~~ |
-| ~~1301~~ | ~~[Number of Paths with Max Score]( https://leetcode.com/problems/number-of-paths-with-max-score/ )~~ | ~~[C++]( src/p1301 )~~ |
-| ~~1302~~ | ~~[Deepest Leaves Sum]( https://leetcode.com/problems/deepest-leaves-sum/ )~~ | ~~[C++]( src/p1302 )~~ |
-| ~~1304~~ | ~~[Find N Unique Integers Sum up to Zero]( https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/ )~~ | ~~[C++/Go/Java/Python]( src/p1304 )~~ |
+| 1295 | [Find Numbers with Even Number of Digits]( https://leetcode.com/problems/find-numbers-with-even-number-of-digits/ ) | [C++/Go/Java/Python]( src/p1295 ) |
+| 1296 | [Divide Array in Sets of K Consecutive Numbers]( https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/ ) | [C++]( src/p1296 ) |
+| 1297 | [Maximum Number of Occurrences of a Substring]( https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/ ) | [C++]( src/p1297 ) |
+| 1298 | [Maximum Candies You Can Get from Boxes]( https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/ ) | [C++]( src/p1298 ) |
+| 1299 | [Replace Elements with Greatest Element on Right Side]( https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/ ) | [C++]( src/p1299 ) |
+| 1300 | [Sum of Mutated Array Closest to Target]( https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/ ) | [C++]( src/p1300 ) |
+| 1301 | [Number of Paths with Max Score]( https://leetcode.com/problems/number-of-paths-with-max-score/ ) | [C++]( src/p1301 ) |
+| 1302 | [Deepest Leaves Sum]( https://leetcode.com/problems/deepest-leaves-sum/ ) | [C++]( src/p1302 ) |
+| 1304 | [Find N Unique Integers Sum up to Zero]( https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/ ) | [C++/Go/Java/Python]( src/p1304 ) |
 | 1305 | [All Elements in Two Binary Search Trees]( https://leetcode.com/problems/all-elements-in-two-binary-search-trees/ ) | [C++]( src/p1305 ) |
-| ~~1306~~ | ~~[Jump Game III]( https://leetcode.com/problems/jump-game-iii/ )~~ | ~~[C++]( src/p1306 )~~ |
-| ~~1307~~ | ~~[Verbal Arithmetic Puzzle]( https://leetcode.com/problems/verbal-arithmetic-puzzle/ )~~ | ~~[C++]( src/p1307 )~~ |
-| ~~1309~~ | ~~[Decrypt String from Alphabet to Integer Mapping]( https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/ )~~ | ~~[C++]( src/p1309 )~~ |
-| ~~1310~~ | ~~[XOR Queries of a Subarray]( https://leetcode.com/problems/xor-queries-of-a-subarray/ )~~ | ~~[C++]( src/p1310 )~~ |
-| ~~1311~~ | ~~[Get Watched Videos by Your Friends]( https://leetcode.com/problems/get-watched-videos-by-your-friends/ )~~ | ~~[C++]( src/p1311 )~~ |
+| 1306 | [Jump Game III]( https://leetcode.com/problems/jump-game-iii/ ) | [C++]( src/p1306 ) |
+| 1307 | [Verbal Arithmetic Puzzle]( https://leetcode.com/problems/verbal-arithmetic-puzzle/ ) | [C++]( src/p1307 ) |
+| 1309 | [Decrypt String from Alphabet to Integer Mapping]( https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/ ) | [C++]( src/p1309 ) |
+| 1310 | [XOR Queries of a Subarray]( https://leetcode.com/problems/xor-queries-of-a-subarray/ ) | [C++]( src/p1310 ) |
+| 1311 | [Get Watched Videos by Your Friends]( https://leetcode.com/problems/get-watched-videos-by-your-friends/ ) | [C++]( src/p1311 ) |
 | 1312 | [Minimum Insertion Steps to Make a String Palindrome]( https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/ ) | [C++/Go/Java/Python/Rust]( src/p1312 ) |
+| 1521 | [Find a Value of a Mysterious Function Closest to Target]( https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/ ) | [C++]( src/p1521 ) |
 | 1528 | [Shuffle String]( https://leetcode.com/problems/shuffle-string/ ) | [C++]( src/p1528 ) |
