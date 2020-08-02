@@ -429,4 +429,5 @@
 | 1521 | [Find a Value of a Mysterious Function Closest to Target]( https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/ ) | [C++]( src/p1521 ) |
 | 1528 | [Shuffle String]( https://leetcode.com/problems/shuffle-string/ ) | [C++]( src/p1528 ) |
 | 1531 | [String Compression II]( https://leetcode.com/problems/string-compression-ii/ ) ⭐ | [C++]( src/p1531 ) |
+| 1536 | [Minimum Swaps to Arrange a Binary Grid]( https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/ ) | [C++]( src/p1536 ) |
 | 1537 | [Get the Maximum Score]( https://leetcode.com/problems/get-the-maximum-score/ ) | [C++]( src/p1537 ) |
