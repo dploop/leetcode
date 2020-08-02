@@ -1,20 +1,18 @@
 class Solution {
 public:
-    int maxSum(vector<int> &nums1, vector<int> &nums2) {
-        int n1 = nums1.size(), n2 = nums2.size();
-        int64_t dp = 0, s1 = 0, s2 = 0;
-        for (int i1 = 0, i2 = 0;;) {
-            if (i1 < n1 && (i2 == n2 || nums1[i1] < nums2[i2])) {
-                s1 += nums1[i1++];
-            } else
-            if (i2 < n2 && (i1 == n1 || nums2[i2] < nums1[i1])) {
-                s2 += nums2[i2++];
-            } else {
-                dp = (dp + max(s1, s2)) % 1000000007;
-                if (i1 == n1 && i2 == n2) { break; }
-                s1 = s2 = nums1[i1++] = nums2[i2++];
+    int maxSum(vector<int> &A, vector<int> &B) {
+        int64_t result = 0, a = 0, b = 0;
+        for (auto i = A.begin(), j = B.begin();;) {
+            if (i != A.end() && (j == B.end() || *i < *j)) {
+                a += *i++; continue;
             }
+            if (j != B.end() && (i == A.end() || *j < *i)) {
+                b += *j++; continue;
+            }
+            result = (result + max(a, b)) % 1000000007;
+            if (i == A.end() && j == B.end()) break;
+            a = b = *i++ = *j++;
         }
-        return dp;
+        return result;
     }
 };

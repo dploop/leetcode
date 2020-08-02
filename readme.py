@@ -30,15 +30,13 @@ def get_row(problem):
     index = '%04d' % int(attr.get('id', '0'))
     title = '[%s]( %s )' % (attr.get('title', ''), attr.get('url', ''))
     solution = '[%s]( src/%s )' % (langs(problem), quote(basename))
-    favorite = attr.get('favorite', False)
-    return (index, title, solution, favorite)
+    # favorite: ⭐
+    # complete: ✅
+    addition = attr.get('addition', '')
+    return (index, title, addition, solution)
 
 def fmt_row(row):
-    (index, title, solution, favorite) = row
-    template = '| %s | %s | %s |'
-    if favorite:
-        template = '| %s | %s \u2b50 | %s |'
-    return template % (index, title, solution)
+    return '| %s | %s %s | %s |' % row
 
 if __name__ == '__main__':
     (__file__

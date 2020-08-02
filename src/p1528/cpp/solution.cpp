@@ -1,8 +1,7 @@
 class Solution {
 public:
     string restoreString(string s, vector<int> &t) {
-        int n = static_cast<int>(t.size());
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < t.size(); i++) {
             while (t[i] != i) {
                 swap(s[t[i]], s[i]);
                 swap(t[t[i]], t[i]);

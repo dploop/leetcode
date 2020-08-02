@@ -13,7 +13,7 @@ public:
             for (int v = 0; v <= V; v++) {
                 for (int m = 1, u = 0; m <= n; m++) {
                     u += (s[n - m] == s[n - 1]);
-                    if (v - u < 0 || v - u > n - m) { break; }
+                    if (v - u < 0 || v - u > n - m) break;
                     dp[n][v] = min(dp[n][v], compress(u) + dp[n - m][v - u]);
                 }
                 dp[n][v] = min(dp[n][v], dp[n - 1][v]);
