@@ -428,3 +428,4 @@
 | 1312 | [Minimum Insertion Steps to Make a String Palindrome]( https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/ ) | [C++/Go/Java/Python/Rust]( src/p1312 ) |
 | 1521 | [Find a Value of a Mysterious Function Closest to Target]( https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/ ) | [C++]( src/p1521 ) |
 | 1528 | [Shuffle String]( https://leetcode.com/problems/shuffle-string/ ) | [C++]( src/p1528 ) |
+| 1531 | [String Compression II]( https://leetcode.com/problems/string-compression-ii/ ) ⭐ | [C++]( src/p1531 ) |
