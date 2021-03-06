@@ -22,7 +22,7 @@ if __name__ == '__main__':
         if not os.path.exists(sub):
             os.mkdir(sub)
         attr = {
-            'addition': '',
+            'addition': '✅⭐',
             'id': index,
             'title': title,
             'url': 'https://leetcode.com/problems/%s/' % slug
