@@ -426,6 +426,7 @@
 | 1310 | [XOR Queries of a Subarray]( https://leetcode.com/problems/xor-queries-of-a-subarray/ )  | [C++]( src/p1310 ) |
 | 1311 | [Get Watched Videos by Your Friends]( https://leetcode.com/problems/get-watched-videos-by-your-friends/ )  | [C++]( src/p1311 ) |
 | 1312 | [Minimum Insertion Steps to Make a String Palindrome]( https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/ )  | [C++/Go/Java/Python/Rust]( src/p1312 ) |
+| 1342 | [Number of Steps to Reduce a Number to Zero]( https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/ ) ✅ | [Go]( src/p1342 ) |
 | 1480 | [Running Sum of 1d Array]( https://leetcode.com/problems/running-sum-of-1d-array/ ) ✅ | [C++/Go/Java/Rust]( src/p1480 ) |
 | 1521 | [Find a Value of a Mysterious Function Closest to Target]( https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/ ) ✅ | [C++]( src/p1521 ) |
 | 1528 | [Shuffle String]( https://leetcode.com/problems/shuffle-string/ ) ⭐ | [C++]( src/p1528 ) |
