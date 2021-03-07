@@ -251,6 +251,7 @@
 | 0477 | [Total Hamming Distance]( https://leetcode.com/problems/total-hamming-distance/ )  | [C++/Java]( src/p0477 ) |
 | 0478 | [Generate Random Point in a Circle]( https://leetcode.com/problems/generate-random-point-in-a-circle/ )  | [C++/Java]( src/p0478 ) |
 | 0485 | [Max Consecutive Ones]( https://leetcode.com/problems/max-consecutive-ones/ )  | [C++]( src/p0485 ) |
+| 0493 | [Reverse Pairs]( https://leetcode.com/problems/reverse-pairs/ )  | [C++]( src/p0493 ) |
 | 0494 | [Target Sum]( https://leetcode.com/problems/target-sum/ )  | [Go]( src/p0494 ) |
 | 0497 | [Random Point in Non-overlapping Rectangles]( https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/ )  | [C++/Java]( src/p0497 ) |
 | 0509 | [Fibonacci Number]( https://leetcode.com/problems/fibonacci-number/ )  | [C++]( src/p0509 ) |
