@@ -437,3 +437,4 @@
 | 1535 | [Find the Winner of an Array Game]( https://leetcode.com/problems/find-the-winner-of-an-array-game/ ) ✅ | [C++]( src/p1535 ) |
 | 1536 | [Minimum Swaps to Arrange a Binary Grid]( https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/ ) ✅ | [C++]( src/p1536 ) |
 | 1537 | [Get the Maximum Score]( https://leetcode.com/problems/get-the-maximum-score/ ) ✅ | [C++]( src/p1537 ) |
+| 1818 | [Minimum Absolute Sum Difference]( https://leetcode.com/problems/minimum-absolute-sum-difference/ ) ✅ | [C++]( src/p1818 ) |
